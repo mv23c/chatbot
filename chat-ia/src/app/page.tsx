@@ -1,6 +1,21 @@
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Home() {
   return (
-    <h1>Hello world!</h1>
+    <div className="flex items-center justify-center" >
+      <Card className="w-[400px] h-[700px]">
+        <CardHeader>
+          <CardTitle>Chat IA</CardTitle>
+          <CardDescription>Using Vercel SDK to create a chat bot.</CardDescription>
+        </CardHeader>
+
+        <CardContent>
+          <p>Mensagens</p>
+        </CardContent>
+        <CardFooter>
+          form
+        </CardFooter>
+      </Card>
+    </div>
   );
 }
