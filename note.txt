@@ -1,6 +1,0 @@
-Projeto chat-ia em 05/08/2024
-
-Inicialmente criamos um projeto em Next com:
-    npx create-next-app@latest
-
-Criamos um projeto Next com Typescript, ESLint, Tailwind CSS, com diretório src, App Router, import alias.
